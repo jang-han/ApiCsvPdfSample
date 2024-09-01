@@ -1,0 +1,813 @@
+2024-09-01 22:38:21 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 22:38:21 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:38:21 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:38:21 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:38:21 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:38:21 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 22:38:21 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 727250772.
+2024-09-01 22:38:21 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2b58f754]
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:38:21 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:38:21 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2b58f754]
+2024-09-01 22:47:03 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 22:47:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:47:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:47:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:47:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:47:03 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 22:47:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 727250772.
+2024-09-01 22:47:03 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2b58f754]
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:47:03 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:47:03 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2b58f754]
+2024-09-01 22:47:03 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2b58f754]
+2024-09-01 22:47:03 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2b58f754]
+2024-09-01 22:47:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 727250772 to pool.
+2024-09-01 22:56:49 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 22:56:49 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:56:49 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:56:49 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:56:49 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:56:49 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 22:56:49 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 754072705.
+2024-09-01 22:56:49 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:56:49 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:56:49 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:56:50 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:56:50 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:56:50 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 754072705 to pool.
+2024-09-01 22:59:37 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 22:59:37 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:59:37 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:59:37 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:59:37 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 22:59:37 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 22:59:37 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 754072705.
+2024-09-01 22:59:37 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:37 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 22:59:38 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 22:59:38 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:59:38 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:59:38 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 22:59:38 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 754072705 to pool.
+2024-09-01 23:04:43 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 23:04:43 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:04:43 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:04:43 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:04:43 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:04:44 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 23:04:44 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 754072705.
+2024-09-01 23:04:44 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:04:44 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:04:44 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:04:45 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:04:45 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:04:45 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 754072705 to pool.
+2024-09-01 23:05:53 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 23:05:53 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:05:53 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:05:53 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:05:53 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:05:53 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 23:05:53 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 754072705.
+2024-09-01 23:05:53 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:05:53 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:53 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:05:54 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:05:54 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:05:54 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:05:54 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:05:54 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 754072705 to pool.
+2024-09-01 23:08:18 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 23:08:18 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:08:18 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:08:18 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:08:18 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:08:18 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 23:08:18 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 754072705.
+2024-09-01 23:08:18 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:08:18 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:08:18 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:08:19 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:08:19 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:08:19 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 754072705 to pool.
+2024-09-01 23:10:27 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 23:10:27 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:10:27 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:10:27 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:10:27 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 23:10:27 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 23:10:27 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 754072705.
+2024-09-01 23:10:27 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1087(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.19(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.031(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4589(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84120(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 392.53(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2763(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9768(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3355(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9416(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 152.90(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.6620(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.7651(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6301(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2155(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4941(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8585(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6455(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17180.03(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0245(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.9485(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1478.60(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.7581(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.7901(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7709(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.309(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4441(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.541(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.5358(BigDecimal), 2024-08-30(Date)
+2024-09-01 23:10:27 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-01 23:10:27 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:10:27 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:10:27 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2cf23c81]
+2024-09-01 23:10:27 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 754072705 to pool.
