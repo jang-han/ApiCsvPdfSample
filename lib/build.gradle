@@ -15,6 +15,11 @@ plugins {
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
+    
+    // Local repository
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
@@ -26,7 +31,7 @@ dependencies {
     // Use JUnit test framework.
     testImplementation 'junit:junit:4.13'
 
-    // This dependency is exported to consumers, that is to say found on their compile classpath.
+    // Commons Math library
     api 'org.apache.commons:commons-math3:3.6.1'
 
     // PostgreSQL JDBC Driver
@@ -38,8 +43,12 @@ dependencies {
     // HikariCP for database connection pooling
     implementation 'com.zaxxer:HikariCP:4.0.3'
     
-    // PDFBox 라이브러리 추가
-    implementation 'org.apache.pdfbox:pdfbox:2.0.24'
+    // PDFBox and FontBox libraries from local repository
+    implementation name: 'pdfbox-2.0.24'
+    implementation name: 'fontbox-2.0.24'
+    
+    // Commons Logging for PDFBox
+    implementation name: 'commons-logging-1.2'
     
 }
 

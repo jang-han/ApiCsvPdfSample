@@ -22,6 +22,7 @@ import pdf.PdfUtil;
 public class MainApplication {
 
     public static void main(String[] args) {
+    	System.out.println("===START===");
         try {
             String urlString = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
             URL url = new URL(urlString);
@@ -66,6 +67,7 @@ public class MainApplication {
             
             inputStream.close();
             session.close();
+            System.out.println("===FINISH===");
             
         } catch (Exception e) {
             e.printStackTrace();
