@@ -1,0 +1,10 @@
+spring-boot-2.1.6.RELEASE.jar
+spring-boot-autoconfigure-2.1.6.RELEASE.jar
+spring-boot-starter-2.1.6.RELEASE.jar
+spring-boot-starter-web-2.1.6.RELEASE.jar
+spring-boot-starter-logging-2.1.6.RELEASE.jar
+spring-boot-starter-tomcat-2.1.6.RELEASE.jar
+spring-boot-starter-json-2.1.6.RELEASE.jar
+spring-core-5.1.8.RELEASE.jar
+spring-web-5.1.8.RELEASE.jar
+spring-webmvc-5.1.8.RELEASE.jar
