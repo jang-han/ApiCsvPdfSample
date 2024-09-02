@@ -12,7 +12,7 @@
     </insert>
 
     <!-- 모든 환율 데이터를 조회하는 SQL 쿼리 -->
-    <select id="getAllExchangeRates" resultType="model.ExchangeRate">
+    <select id="selectAll" resultType="model.ExchangeRate">
         SELECT id, currency, rate, date FROM exchange_rate
     </select>
 
