@@ -1658,3 +1658,133 @@
 2024-09-03 00:14:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@2e5e6fc4]
 2024-09-03 00:14:24 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@2e5e6fc4]
 2024-09-03 00:14:24 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 777940932 to pool.
+2024-09-03 23:23:03 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-03 23:23:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:03 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:06 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 1917513667.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@724aefc3]
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: USD(String), 1.1035(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: JPY(String), 161.26(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BGN(String), 1.9558(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CZK(String), 25.071(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: DKK(String), 7.4595(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: GBP(String), 0.84085(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HUF(String), 393.38(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PLN(String), 4.2783(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: RON(String), 4.9735(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SEK(String), 11.3720(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CHF(String), 0.9409(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ISK(String), 153.50(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NOK(String), 11.7660(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: TRY(String), 37.4947(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: AUD(String), 1.6394(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: BRL(String), 6.2056(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CAD(String), 1.4951(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: CNY(String), 7.8614(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: HKD(String), 8.6050(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: IDR(String), 17171.01(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ILS(String), 4.0623(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: INR(String), 92.6690(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: KRW(String), 1481.23(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MXN(String), 21.8785(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: MYR(String), 4.8195(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: NZD(String), 1.7839(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: PHP(String), 62.427(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: SGD(String), 1.4453(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: THB(String), 37.833(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==>  Preparing: INSERT INTO exchange_rate (currency, rate, date) VALUES (?, ?, ?)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - ==> Parameters: ZAR(String), 19.8345(BigDecimal), 2024-09-03(Date)
+2024-09-03 23:23:07 [main] DEBUG m.E.insertExchangeRate - <==    Updates: 1
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Committing JDBC Connection [org.postgresql.jdbc.PgConnection@724aefc3]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@724aefc3]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@724aefc3]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 1917513667 to pool.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 542641486.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@20580d4e]
+2024-09-03 23:23:07 [main] DEBUG mapper.ExchangeRateMapper.selectAll - ==>  Preparing: SELECT id, currency, rate, date FROM exchange_rate
+2024-09-03 23:23:07 [main] DEBUG mapper.ExchangeRateMapper.selectAll - ==> Parameters: 
+2024-09-03 23:23:07 [main] DEBUG mapper.ExchangeRateMapper.selectAll - <==      Total: 270
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@20580d4e]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@20580d4e]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 542641486 to pool.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Created connection 568221863.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [org.postgresql.jdbc.PgConnection@21de60a7]
+2024-09-03 23:23:07 [main] DEBUG mapper.ExchangeRateMapper.selectAll - ==>  Preparing: SELECT id, currency, rate, date FROM exchange_rate
+2024-09-03 23:23:07 [main] DEBUG mapper.ExchangeRateMapper.selectAll - ==> Parameters: 
+2024-09-03 23:23:07 [main] DEBUG mapper.ExchangeRateMapper.selectAll - <==      Total: 270
+2024-09-03 23:23:07 [Finalizer] DEBUG o.a.i.d.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Resetting autocommit to true on JDBC Connection [org.postgresql.jdbc.PgConnection@21de60a7]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.t.jdbc.JdbcTransaction - Closing JDBC Connection [org.postgresql.jdbc.PgConnection@21de60a7]
+2024-09-03 23:23:07 [main] DEBUG o.a.i.d.pooled.PooledDataSource - Returned connection 568221863 to pool.

@@ -14,7 +14,7 @@ plugins {
 
 repositories {
     // Use Maven Central for resolving dependencies.
-    mavenCentral()
+    //mavenCentral()
 
     // Local repository for JAR files
     flatDir {
@@ -40,6 +40,7 @@ dependencies {
 
     // MyBatis for ORM (Object-Relational Mapping)
     implementation name: 'mybatis-3.5.6'
+    implementation name: 'mybatis-spring-boot-starter-2.1.0'
 
     // HikariCP for database connection pooling
     implementation name: 'HikariCP-4.0.3'
@@ -84,6 +85,9 @@ dependencies {
     
     // Micrometer Core
     implementation name: 'micrometer-core-1.1.0'
+    
+    // 로컬 리포지토리에서 Flyway
+    implementation name: 'flyway-core-7.5.4'
 }
 
 flyway {
