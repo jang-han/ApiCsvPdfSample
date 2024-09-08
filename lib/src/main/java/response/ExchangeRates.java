@@ -1,13 +1,11 @@
 package response;
 
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlType;
 import java.util.List;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
 @XmlRootElement(name = "Envelope", namespace = "http://www.gesmes.org/xml/2002-08-01")
-@XmlType(propOrder = {"cube"})
 public class ExchangeRates {
 
     private CubeData cube;
@@ -38,15 +36,6 @@ public class ExchangeRates {
         private String time;
         private List<Cube> rates;
 
-        @XmlAttribute(name = "time")
-        public String getTime() {
-            return time;
-        }
-
-        public void setTime(String time) {
-            this.time = time;
-        }
-
         @XmlElement(name = "Cube", namespace = "http://www.ecb.int/vocabulary/2002-08-01/eurofxref")
         public List<Cube> getRates() {
             return rates;
@@ -55,13 +44,22 @@ public class ExchangeRates {
         public void setRates(List<Cube> rates) {
             this.rates = rates;
         }
+
+        @XmlElement(name = "time", namespace = "http://www.ecb.int/vocabulary/2002-08-01/eurofxref")
+        public String getTime() {
+            return time;
+        }
+
+        public void setTime(String time) {
+            this.time = time;
+        }
     }
 
     public static class Cube {
         private String currency;
         private String rate;
 
-        @XmlAttribute(name = "currency")
+        @XmlElement(name = "currency", namespace = "http://www.ecb.int/vocabulary/2002-08-01/eurofxref")
         public String getCurrency() {
             return currency;
         }
@@ -70,7 +68,7 @@ public class ExchangeRates {
             this.currency = currency;
         }
 
-        @XmlAttribute(name = "rate")
+        @XmlElement(name = "rate", namespace = "http://www.ecb.int/vocabulary/2002-08-01/eurofxref")
         public String getRate() {
             return rate;
         }

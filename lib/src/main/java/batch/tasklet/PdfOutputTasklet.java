@@ -29,15 +29,17 @@ public class PdfOutputTasklet implements Tasklet {
 
     @Override
     public RepeatStatus execute(StepContribution contribution, ChunkContext chunkContext) throws Exception {
-        System.out.println("===PDF Output Job Started===");
+        System.out.println("=== PDF Output Job Started ===");
 
-        SqlSession session = sqlSessionFactory.openSession();
-        List<ExchangeRate> exchangeRates = session.selectList("mapper.ExchangeRateMapper.selectAll");
+        // SqlSession을 열어 데이터베이스에서 데이터를 조회
+        try (SqlSession session = sqlSessionFactory.openSession()) {
+            List<ExchangeRate> exchangeRates = session.selectList("mapper.ExchangeRateMapper.selectAll");
 
-        PdfUtil.writePdf(exchangeRates, "exchange_rates.pdf");
+            // PDF 파일 생성
+            PdfUtil.createMedicalOpinionPdf("exchange_rates.pdf");
+        }
 
-        session.close();
-        System.out.println("===PDF Output Job Finished===");
+        System.out.println("=== PDF Output Job Finished ===");
         return RepeatStatus.FINISHED;
     }
 }
